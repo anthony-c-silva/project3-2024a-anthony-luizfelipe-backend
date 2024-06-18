@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Web app simplificado para controle de estoque de abrigos, com estimativa de necessidades",
   "main": "app.js",
+  "engines":{
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
